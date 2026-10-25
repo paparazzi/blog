@@ -1,62 +1,58 @@
-# Paparazzi UAV Blog — Hugo migration
+# Paparazzi UAV Blog
 
-This is a local migration. The live WordPress site has not been changed.
+Source for [docs.paparazziuav.org/blog/](https://docs.paparazziuav.org/blog/), built with Hugo.
 
-## Preview
+## Requirements
 
-Hugo 0.168.0 is downloaded locally in `.tools/` (Linux amd64).
+Install [Hugo](https://gohugo.io/installation/) **0.168.0**, the version used by GitHub Actions. Run commands below from the repository root. If you have a local binary in `.tools/`, use `.tools/hugo` instead of `hugo`.
 
-```sh
-.tools/hugo server --bind 127.0.0.1 --baseURL http://localhost:1313/
+## Add an article
+
+Create a Markdown file in `content/posts/`, for example `content/posts/new-flight-tests.md`:
+
+```markdown
++++
+title = "New flight tests"
+date = 2026-10-25T14:00:00+01:00
+author = "Your name"
+categories = ["Research"]
+tags = ["Flight tests"]
+url = "/2026/10/25/new-flight-tests/"
+draft = true
++++
+
+Write your introduction here.
+
+## Results
+
+Describe the results here.
+
+![Aircraft during testing](/images/new-flight-tests/aircraft.jpg)
 ```
 
-Open http://localhost:1313/. To build for production:
+Replace the example title, date, author, and URL. Use a unique URL with the article's publication date and slug. Articles appear automatically on the homepage, in the archives, and in the sidebar, ordered by date.
+
+For the example image, save the file as `static/images/new-flight-tests/aircraft.jpg`. Files under `static/` are served from the site root, so omit `static` from image URLs.
+
+## Preview locally
+
+Start the preview server, including drafts:
 
 ```sh
-.tools/hugo --minify
+hugo server -D --bind 127.0.0.1 --baseURL http://localhost:1313/
 ```
 
-Upload the contents of `public/` to a static web server. PHP and a database are not required. Keep the original WordPress backup separately until the migration is accepted. No deployment has been performed.
+Open **http://localhost:1313/**. The preview refreshes automatically when you edit files. Press **Ctrl+C** to stop it. Add `--buildFuture` to preview articles with future publication dates.
 
-## GitHub Pages deployment
-
-The workflow in `.github/workflows/pages.yml` builds with Hugo **0.168.0** and deploys on every push to **main**. It can also be started manually from the Actions tab. It uses GitHub's built-in token; no personal access token or deployment secret is needed.
-
-1. Create your GitHub repository and push this source tree on `main`.
-2. In **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**.
-3. Push a commit, or run **Deploy Hugo to GitHub Pages** from the Actions tab. If the first run happened before Pages was enabled, rerun it.
-4. The deployment job and **Settings → Pages** show the published URL.
-
-The workflow takes the base URL from GitHub Pages and rewrites root-relative navigation and media URLs. It supports both `https://OWNER.github.io/REPOSITORY/` and a custom domain. To keep `blog.paparazziuav.org`, configure it under **Settings → Pages → Custom domain**, follow GitHub's domain verification instructions, and update DNS when ready. The workflow does not change DNS or the live WordPress site. GitHub Pages does not support server-side redirect configuration; any old RSS redirect needs a separate solution.
-
-Commit `content/`, `static/` (including the imported media), `layouts/`, `hugo.toml`, scripts, documentation, and `.github/`. The importer and Python dependencies are for migration checks only; Actions needs only Hugo. Generated `public/` and `dist/` directories, local tools, and original XML/tar exports are excluded by `.gitignore`.
-
-To publish another article, add or edit a Markdown file under `content/posts/`, add images under `static/`, preview locally, then commit and push to `main`. The workflow rebuilds the complete site, including the sidebar.
-
-## Content
-
-153 published posts, the About page, categories, tags, original post/page URLs, original media paths, and 56 approved comments have been imported. Two drafts are excluded and remain in the original XML export. Authors use the display names from WordPress. Dates use WordPress UTC timestamps. YouTube embeds remain external video services.
-
-Imported posts live in `content/posts/` as Markdown with JSON front matter. Edit those files directly. New posts can use normal Markdown and front matter containing `title`, `date`, `author`, `categories`, and `url`. Use an explicit URL to preserve the dated URL convention. Raw HTML rendering is enabled for historical embeds; review contributed HTML before publishing.
-
-This site uses a small custom layout, not the original WordPress theme. The old search and comment submission forms have been replaced with browsing by archive/category and read-only archived comments. The existing home page pagination paths are retained; individual historical WordPress monthly/author archive URLs and attachment pages are not yet recreated. RSS is at `/feed.xml`; configure a permanent redirect from the old `/feed/` URL on the production server.
-
-## Re-run the import
-
-Re-running overwrites imported content files, so do this before making editorial changes, or back up those changes first. The original XML and tar archive are untouched.
+Alternatively, build and serve with Python:
 
 ```sh
-python3 -m venv .venv
-.venv/bin/pip install -r scripts/requirements.txt
-.venv/bin/python scripts/import_wordpress.py
-.tools/hugo --minify
-.venv/bin/python scripts/verify_site.py
+hugo --minify --destination dist --baseURL http://localhost:1313/
+python3 -m http.server 1313 --bind 127.0.0.1 --directory dist
 ```
 
-`migration-manifest.json` maps all 154 original post/page URLs to content files. `migration-report.json` records content counts and unsupported shortcodes. `link-report.json` lists missing local targets after a build.
+This alternative excludes drafts and requires rebuilding after edits, then refreshing the browser.
 
-## Known issue and checks before switching
+## Publish
 
-`/wp-content/uploads/2011/01/27C3-desk.jpg` is referenced in the historical content, but is absent from the supplied archive and also returns HTTP 404 on the live site. Restore it from an older backup if available.
-
-The build succeeds and all 154 imported post/page routes resolve. Local links and image references are checked; external links and video playback have not all been verified. Review representative posts (including galleries/videos), the design, and production redirects before switching the domain. Keep original exports private: they include drafts and comment metadata. `.gitignore` excludes the input XML/archive, tools, environment, and generated site.
+Set `draft = false` when the article is ready, and ensure its publication date is not in the future. Commit the article and any new images, then push to `main`. GitHub Actions builds and deploys the site to GitHub Pages automatically; check the repository's **Actions** tab for progress.
