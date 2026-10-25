@@ -1,0 +1,9 @@
+.tools/
+.venv/
+public/
+resources/
+.hugo_build.lock
+*.xml
+*.tar.gz
+dist/
+__pycache__/
