@@ -1,0 +1,19 @@
+baseURL = 'https://blog.paparazziuav.org/'
+locale = 'en'
+title = 'Paparazzi UAV Blog'
+enableRobotsTXT = true
+[pagination]
+  pagerSize = 10
+[params]
+  description = 'Research and development of open-source UAV systems since 2003'
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+[permalinks.taxonomy]
+  categories = '/category/'
+[permalinks.term]
+  categories = '/category/:slug/'
+[outputFormats.RSS]
+  baseName = 'feed'
+[markup.goldmark.renderer]
+  unsafe = true

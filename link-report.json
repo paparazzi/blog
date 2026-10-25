@@ -1,0 +1,19 @@
+{
+  "original_routes_verified": 154,
+  "missing_local_targets": {
+    "/wp-content/uploads/2011/01/27C3-desk.jpg": [
+      "2011/01/13/paparazzi-at-the-27c3/index.html",
+      "category/community/page/6/index.html",
+      "category/events/page/3/index.html",
+      "page/11/index.html",
+      "posts/page/11/index.html",
+      "tags/27c3/index.html",
+      "tags/ccc/index.html",
+      "tags/chaos-computer-club/index.html",
+      "tags/community/index.html",
+      "tags/congress/index.html",
+      "tags/event/index.html",
+      "tags/meeting/index.html"
+    ]
+  }
+}

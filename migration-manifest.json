@@ -1,0 +1,618 @@
+[
+  {
+    "url": "/about/",
+    "source": "content/pages/2-about.md"
+  },
+  {
+    "url": "/2010/11/28/welcome-to-the-all-new-paparazzi-uav-blog/",
+    "source": "content/posts/5-welcome-to-the-all-new-paparazzi-uav-blog.md"
+  },
+  {
+    "url": "/2010/12/01/paparazzi-osxport/",
+    "source": "content/posts/18-paparazzi-osxport.md"
+  },
+  {
+    "url": "/2010/12/14/lisam-next-generation-entry-level-paparazzi-autopilot/",
+    "source": "content/posts/61-lisam-next-generation-entry-level-paparazzi-autopilot.md"
+  },
+  {
+    "url": "/2010/12/06/lisa-stm32-paparazzi-autopilot-overview-part-1/",
+    "source": "content/posts/62-lisa-stm32-paparazzi-autopilot-overview-part-1.md"
+  },
+  {
+    "url": "/2010/12/09/adaptive-control-in-paparazzi/",
+    "source": "content/posts/136-adaptive-control-in-paparazzi.md"
+  },
+  {
+    "url": "/2011/01/13/paparazzi-at-the-27c3/",
+    "source": "content/posts/169-paparazzi-at-the-27c3.md"
+  },
+  {
+    "url": "/2011/02/11/paparazzi-mac-osx-release/",
+    "source": "content/posts/185-paparazzi-mac-osx-release.md"
+  },
+  {
+    "url": "/2011/02/15/paparazzi-at-chaos-communication-camp-2011/",
+    "source": "content/posts/220-paparazzi-at-chaos-communication-camp-2011.md"
+  },
+  {
+    "url": "/2011/02/21/aspirin-imu-release/",
+    "source": "content/posts/233-aspirin-imu-release.md"
+  },
+  {
+    "url": "/2011/06/22/lisam-for-developers/",
+    "source": "content/posts/276-lisam-for-developers.md"
+  },
+  {
+    "url": "/2011/12/26/cre187-paparazzi/",
+    "source": "content/posts/303-cre187-paparazzi.md"
+  },
+  {
+    "url": "/2011/12/26/paparazzi-at-28c3/",
+    "source": "content/posts/307-paparazzi-at-28c3.md"
+  },
+  {
+    "url": "/2006/11/01/2003-2006/",
+    "source": "content/posts/342-2003-2006.md"
+  },
+  {
+    "url": "/2006/11/24/2nd-and-3rd-places-on-mav06/",
+    "source": "content/posts/345-2nd-and-3rd-places-on-mav06.md"
+  },
+  {
+    "url": "/2006/12/07/7-state-kalman-filter/",
+    "source": "content/posts/348-7-state-kalman-filter.md"
+  },
+  {
+    "url": "/2007/02/05/antenna-tracker/",
+    "source": "content/posts/351-antenna-tracker.md"
+  },
+  {
+    "url": "/2007/03/01/spring-flights/",
+    "source": "content/posts/354-spring-flights.md"
+  },
+  {
+    "url": "/2007/08/21/flohof-measurement-campaign/",
+    "source": "content/posts/357-flohof-measurement-campaign.md"
+  },
+  {
+    "url": "/2007/08/28/we-lost-dr-paul-maccready/",
+    "source": "content/posts/360-we-lost-dr-paul-maccready.md"
+  },
+  {
+    "url": "/2007/09/17/mav-07/",
+    "source": "content/posts/363-mav-07.md"
+  },
+  {
+    "url": "/2007/09/21/mav-07-success/",
+    "source": "content/posts/366-mav-07-success.md"
+  },
+  {
+    "url": "/2007/12/13/tiny-2-1-autopilot/",
+    "source": "content/posts/369-tiny-2-1-autopilot.md"
+  },
+  {
+    "url": "/2007/12/27/flying-aircraft-over-internet/",
+    "source": "content/posts/372-flying-aircraft-over-internet.md"
+  },
+  {
+    "url": "/2008/01/27/paparazzi-featured-on-turkish-tv/",
+    "source": "content/posts/375-paparazzi-featured-on-turkish-tv.md"
+  },
+  {
+    "url": "/2008/02/06/small-and-light-gcs/",
+    "source": "content/posts/378-small-and-light-gcs.md"
+  },
+  {
+    "url": "/2008/03/15/tiny-2-11-available/",
+    "source": "content/posts/381-tiny-2-11-available.md"
+  },
+  {
+    "url": "/2008/03/26/paparazzi-as-meteorological-tool/",
+    "source": "content/posts/384-paparazzi-as-meteorological-tool.md"
+  },
+  {
+    "url": "/2008/06/13/tiny-with-out-gps/",
+    "source": "content/posts/387-tiny-with-out-gps.md"
+  },
+  {
+    "url": "/2008/06/23/second-place-at-student-auvsi-competition/",
+    "source": "content/posts/390-second-place-at-student-auvsi-competition.md"
+  },
+  {
+    "url": "/2008/09/23/motodrone-in-finowfurt/",
+    "source": "content/posts/393-motodrone-in-finowfurt.md"
+  },
+  {
+    "url": "/2009/01/19/asmeieee-call-for-papers/",
+    "source": "content/posts/396-asmeieee-call-for-papers.md"
+  },
+  {
+    "url": "/2009/02/16/new-uav-forum/",
+    "source": "content/posts/400-new-uav-forum.md"
+  },
+  {
+    "url": "/2009/03/24/arctic-meteorological-missions-2009/",
+    "source": "content/posts/402-arctic-meteorological-missions-2009.md"
+  },
+  {
+    "url": "/2009/04/07/emav-2009-invitation/",
+    "source": "content/posts/405-emav-2009-invitation.md"
+  },
+  {
+    "url": "/2009/05/26/enac-paparazzi-wins-onera-dga-challenge/",
+    "source": "content/posts/408-enac-paparazzi-wins-onera-dga-challenge.md"
+  },
+  {
+    "url": "/2009/06/19/paparazzi-in-the-industry/",
+    "source": "content/posts/411-paparazzi-in-the-industry.md"
+  },
+  {
+    "url": "/2009/06/20/1st-place-at-auvsi-for-usu-osam-paparazzi-team/",
+    "source": "content/posts/413-1st-place-at-auvsi-for-usu-osam-paparazzi-team.md"
+  },
+  {
+    "url": "/2009/09/24/emav-09-recap/",
+    "source": "content/posts/415-emav-09-recap.md"
+  },
+  {
+    "url": "/2009/09/30/outback-challenge-2009/",
+    "source": "content/posts/419-outback-challenge-2009.md"
+  },
+  {
+    "url": "/2010/02/19/university-of-stuttgart-uses-paparazzi/",
+    "source": "content/posts/423-university-of-stuttgart-uses-paparazzi.md"
+  },
+  {
+    "url": "/2010/05/22/tragically-we-lost-pascal-brisset/",
+    "source": "content/posts/426-tragically-we-lost-pascal-brisset.md"
+  },
+  {
+    "url": "/2010/08/01/code-refactor/",
+    "source": "content/posts/429-code-refactor.md"
+  },
+  {
+    "url": "/2010/11/19/we-moved-to-git/",
+    "source": "content/posts/432-we-moved-to-git.md"
+  },
+  {
+    "url": "/2010/11/26/adaptive-control/",
+    "source": "content/posts/435-adaptive-control.md"
+  },
+  {
+    "url": "/2011/02/15/antarctica-meteo-missions-2011/",
+    "source": "content/posts/441-antarctica-meteo-missions-2011.md"
+  },
+  {
+    "url": "/2011/08/31/444/",
+    "source": "content/posts/444-444.md"
+  },
+  {
+    "url": "/2011/09/18/imav-2011/",
+    "source": "content/posts/448-imav-2011.md"
+  },
+  {
+    "url": "/2011/10/05/umarim-v1-0/",
+    "source": "content/posts/451-umarim-v1-0.md"
+  },
+  {
+    "url": "/2012/03/07/antarctic-meteo-summer-missions-20112012/",
+    "source": "content/posts/454-antarctic-meteo-summer-missions-20112012.md"
+  },
+  {
+    "url": "/2012/04/09/paparazzi-in-madagascar/",
+    "source": "content/posts/457-paparazzi-in-madagascar.md"
+  },
+  {
+    "url": "/2012/05/08/paparazzi-youtube-playlist/",
+    "source": "content/posts/460-paparazzi-youtube-playlist.md"
+  },
+  {
+    "url": "/2012/05/09/stable-paparazzi-releases/",
+    "source": "content/posts/466-stable-paparazzi-releases.md"
+  },
+  {
+    "url": "/2012/07/06/atmos-hybrid-uav/",
+    "source": "content/posts/470-atmos-hybrid-uav.md"
+  },
+  {
+    "url": "/2012/07/06/1st-place-at-imav2012-for-enac-paparazzi-team/",
+    "source": "content/posts/474-1st-place-at-imav2012-for-enac-paparazzi-team.md"
+  },
+  {
+    "url": "/2012/07/26/paparazzi-v4-0-release/",
+    "source": "content/posts/477-paparazzi-v4-0-release.md"
+  },
+  {
+    "url": "/2003/08/01/paparazzi-v0/",
+    "source": "content/posts/594-paparazzi-v0.md"
+  },
+  {
+    "url": "/2003/10/01/paparazzi-v1-0/",
+    "source": "content/posts/605-paparazzi-v1-0.md"
+  },
+  {
+    "url": "/2004/09/20/jmd04-results/",
+    "source": "content/posts/860-jmd04-results.md"
+  },
+  {
+    "url": "/2003/10/03/first-place-at-ensicasupaero-journees-microdrone/",
+    "source": "content/posts/868-first-place-at-ensicasupaero-journees-microdrone.md"
+  },
+  {
+    "url": "/2003/09/20/jmd03-results/",
+    "source": "content/posts/874-jmd03-results.md"
+  },
+  {
+    "url": "/2004/08/10/emav04-results/",
+    "source": "content/posts/878-emav04-results.md"
+  },
+  {
+    "url": "/2005/07/25/mav05-results/",
+    "source": "content/posts/886-mav05-results.md"
+  },
+  {
+    "url": "/2006/07/25/emav06-results/",
+    "source": "content/posts/910-emav06-results.md"
+  },
+  {
+    "url": "/2008/03/15/us-asian-mav-2008/",
+    "source": "content/posts/914-us-asian-mav-2008.md"
+  },
+  {
+    "url": "/2004/09/15/paparadziy-mavs-for-dummies/",
+    "source": "content/posts/923-paparadziy-mavs-for-dummies.md"
+  },
+  {
+    "url": "/2008/03/10/the-slicer-flight-system-presentation/",
+    "source": "content/posts/931-the-slicer-flight-system-presentation.md"
+  },
+  {
+    "url": "/2009/09/15/emav09-results/",
+    "source": "content/posts/938-emav09-results.md"
+  },
+  {
+    "url": "/2010/07/09/imav-2010-competition/",
+    "source": "content/posts/972-imav-2010-competition.md"
+  },
+  {
+    "url": "/2009/02/09/graphical-control-for-paparazzi-on-mobile-phones/",
+    "source": "content/posts/1129-graphical-control-for-paparazzi-on-mobile-phones.md"
+  },
+  {
+    "url": "/2012/07/26/paparazzi-at-defcon-20/",
+    "source": "content/posts/481-paparazzi-at-defcon-20.md"
+  },
+  {
+    "url": "/2012/12/12/paparazzi-v4-2-0-release/",
+    "source": "content/posts/485-paparazzi-v4-2-0-release.md"
+  },
+  {
+    "url": "/2013/01/22/autonomous-paparazzi-parrot-ar-drone/",
+    "source": "content/posts/488-autonomous-paparazzi-parrot-ar-drone.md"
+  },
+  {
+    "url": "/2013/06/17/paparazzi-v5-0-release/",
+    "source": "content/posts/493-paparazzi-v5-0-release.md"
+  },
+  {
+    "url": "/2013/08/13/antarctica-meteo-missions-2013/",
+    "source": "content/posts/496-antarctica-meteo-missions-2013.md"
+  },
+  {
+    "url": "/2013/08/26/lisas-worlds-smallest-uav-autopilot/",
+    "source": "content/posts/499-lisas-worlds-smallest-uav-autopilot.md"
+  },
+  {
+    "url": "/2013/09/20/imav-2013/",
+    "source": "content/posts/502-imav-2013.md"
+  },
+  {
+    "url": "/2013/11/27/lisas-pre-order/",
+    "source": "content/posts/506-lisas-pre-order.md"
+  },
+  {
+    "url": "/2013/12/27/paparazzi-at-30c3/",
+    "source": "content/posts/510-paparazzi-at-30c3.md"
+  },
+  {
+    "url": "/2014/01/08/paparazzi-wiki-update/",
+    "source": "content/posts/514-paparazzi-wiki-update.md"
+  },
+  {
+    "url": "/2014/01/27/paparazzi-sumo-in-remote-antarctica/",
+    "source": "content/posts/518-paparazzi-sumo-in-remote-antarctica.md"
+  },
+  {
+    "url": "/2014/07/25/paparazzi-on-android/",
+    "source": "content/posts/521-paparazzi-on-android.md"
+  },
+  {
+    "url": "/2014/07/26/paparazzi-on-gitter-im/",
+    "source": "content/posts/528-paparazzi-on-gitter-im.md"
+  },
+  {
+    "url": "/2014/08/12/imav-2014-live-streams/",
+    "source": "content/posts/532-imav-2014-live-streams.md"
+  },
+  {
+    "url": "/2014/08/28/paparazzi-v5-2-release/",
+    "source": "content/posts/538-paparazzi-v5-2-release.md"
+  },
+  {
+    "url": "/2014/11/12/parrot-bebop-paparazzi-integration/",
+    "source": "content/posts/541-parrot-bebop-paparazzi-integration.md"
+  },
+  {
+    "url": "/2015/01/05/paparazzi-v5-4-release/",
+    "source": "content/posts/545-paparazzi-v5-4-release.md"
+  },
+  {
+    "url": "/2015/02/04/enac-flying-paparazzi-aircraft-at-the-atmospheric-research-center-of-lannemezan/",
+    "source": "content/posts/548-enac-flying-paparazzi-aircraft-at-the-atmospheric-research-center-of-lannemezan.md"
+  },
+  {
+    "url": "/2015/03/01/paparazzi-at-the-national-center-for-meteorological-research/",
+    "source": "content/posts/555-paparazzi-at-the-national-center-for-meteorological-research.md"
+  },
+  {
+    "url": "/2015/07/16/paparazzi-uav-at-oscon-2015/",
+    "source": "content/posts/660-paparazzi-uav-at-oscon-2015.md"
+  },
+  {
+    "url": "/2015/06/14/we-are-now-on-facebook/",
+    "source": "content/posts/666-we-are-now-on-facebook.md"
+  },
+  {
+    "url": "/2015/07/17/flying-the-paparazzi-autopilot-blog/",
+    "source": "content/posts/670-flying-the-paparazzi-autopilot-blog.md"
+  },
+  {
+    "url": "/2015/07/19/paparazzi-uav-videos-2004-2010/",
+    "source": "content/posts/702-paparazzi-uav-videos-2004-2010.md"
+  },
+  {
+    "url": "/2013/08/10/lisas-v0-1-design/",
+    "source": "content/posts/746-lisas-v0-1-design.md"
+  },
+  {
+    "url": "/2013/11/30/small-autopilot-big-ideas/",
+    "source": "content/posts/749-small-autopilot-big-ideas.md"
+  },
+  {
+    "url": "/2013/08/28/lisas-at-tu-delft/",
+    "source": "content/posts/755-lisas-at-tu-delft.md"
+  },
+  {
+    "url": "/2013/10/06/a-drone-inside-everybodys-pocket/",
+    "source": "content/posts/757-a-drone-inside-everybodys-pocket.md"
+  },
+  {
+    "url": "/2014/03/11/paparazzi-uav-installation-tutorial-for-ubuntu-gnu-linux/",
+    "source": "content/posts/763-paparazzi-uav-installation-tutorial-for-ubuntu-gnu-linux.md"
+  },
+  {
+    "url": "/2014/04/30/drones-101-series-on-hak5-episodes-1-7/",
+    "source": "content/posts/765-drones-101-series-on-hak5-episodes-1-7.md"
+  },
+  {
+    "url": "/2014/08/01/paparazzi-at-defcon-22/",
+    "source": "content/posts/771-paparazzi-at-defcon-22.md"
+  },
+  {
+    "url": "/2014/08/16/imav-2014-recap/",
+    "source": "content/posts/778-imav-2014-recap.md"
+  },
+  {
+    "url": "/2015/02/01/paparazzi-on-the-parrot-bebop/",
+    "source": "content/posts/787-paparazzi-on-the-parrot-bebop.md"
+  },
+  {
+    "url": "/2014/11/10/building-the-lisas-nano-quadcopter/",
+    "source": "content/posts/791-building-the-lisas-nano-quadcopter.md"
+  },
+  {
+    "url": "/2014/10/16/paparazzi-on-the-parrot-ardrone/",
+    "source": "content/posts/795-paparazzi-on-the-parrot-ardrone.md"
+  },
+  {
+    "url": "/2014/12/15/bbc-interview-with-bart-remes/",
+    "source": "content/posts/802-bbc-interview-with-bart-remes.md"
+  },
+  {
+    "url": "/2015/07/22/paparazzi-uav-hooperfly-flying-robots/",
+    "source": "content/posts/804-paparazzi-uav-hooperfly-flying-robots.md"
+  },
+  {
+    "url": "/2015/08/10/chaos-communication-camp-2015/",
+    "source": "content/posts/815-chaos-communication-camp-2015.md"
+  },
+  {
+    "url": "/2015/08/21/paparazziuav-flying-robots-on-slashdot/",
+    "source": "content/posts/821-paparazziuav-flying-robots-on-slashdot.md"
+  },
+  {
+    "url": "/2015/09/01/lisas-nano-quadcopter-getting-started/",
+    "source": "content/posts/827-lisas-nano-quadcopter-getting-started.md"
+  },
+  {
+    "url": "/2015/09/01/paparazzi-uav-controlled-with-arcade/",
+    "source": "content/posts/830-paparazzi-uav-controlled-with-arcade.md"
+  },
+  {
+    "url": "/2015/09/01/paparazzi-v5-6-release/",
+    "source": "content/posts/835-paparazzi-v5-6-release.md"
+  },
+  {
+    "url": "/2015/10/19/bacchus-meteorological-project/",
+    "source": "content/posts/841-bacchus-meteorological-project.md"
+  },
+  {
+    "url": "/2015/09/05/imav-2015-competition/",
+    "source": "content/posts/858-imav-2015-competition.md"
+  },
+  {
+    "url": "/2015/05/27/tu-delft-student-challenge-2015/",
+    "source": "content/posts/1007-tu-delft-student-challenge-2015.md"
+  },
+  {
+    "url": "/2015/09/27/multi-mav-autonomous-flight/",
+    "source": "content/posts/1017-multi-mav-autonomous-flight.md"
+  },
+  {
+    "url": "/2015/11/19/parrot-bebop-2-support/",
+    "source": "content/posts/1027-parrot-bebop-2-support.md"
+  },
+  {
+    "url": "/2015/12/01/elle0-autopilot/",
+    "source": "content/posts/1038-elle0-autopilot.md"
+  },
+  {
+    "url": "/2015/12/01/paparazzi-uav-at-32c3/",
+    "source": "content/posts/1052-paparazzi-uav-at-32c3.md"
+  },
+  {
+    "url": "/2015/12/04/multi-uav-flights-for-simultaneous-meteorological-measurements/",
+    "source": "content/posts/1056-multi-uav-flights-for-simultaneous-meteorological-measurements.md"
+  },
+  {
+    "url": "/2015/12/15/lisas-nano-quadcopter-featured-on-suas-news/",
+    "source": "content/posts/1064-lisas-nano-quadcopter-featured-on-suas-news.md"
+  },
+  {
+    "url": "/2015/12/24/paparazzi-v5-8-release/",
+    "source": "content/posts/1070-paparazzi-v5-8-release.md"
+  },
+  {
+    "url": "/2015/12/28/g0-gps-module/",
+    "source": "content/posts/1075-g0-gps-module.md"
+  },
+  {
+    "url": "/2016/01/04/paparazzi-uav-at-32c3-recap/",
+    "source": "content/posts/1086-paparazzi-uav-at-32c3-recap.md"
+  },
+  {
+    "url": "/2016/01/12/1bitsquared-launches-german-store/",
+    "source": "content/posts/1089-1bitsquared-launches-german-store.md"
+  },
+  {
+    "url": "/2016/01/06/wiki-front-page-update/",
+    "source": "content/posts/1121-wiki-front-page-update.md"
+  },
+  {
+    "url": "/2016/03/01/paparazziuav-on-pixhawk-teaser/",
+    "source": "content/posts/1143-paparazziuav-on-pixhawk-teaser.md"
+  },
+  {
+    "url": "/2016/03/03/introduction-to-the-elle0-autopilot/",
+    "source": "content/posts/1161-introduction-to-the-elle0-autopilot.md"
+  },
+  {
+    "url": "/2016/03/21/introduction-to-the-g0-gps/",
+    "source": "content/posts/1173-introduction-to-the-g0-gps.md"
+  },
+  {
+    "url": "/2016/04/11/flying-robot-commander-pprzlink-improved-multimav-management/",
+    "source": "content/posts/1181-flying-robot-commander-pprzlink-improved-multimav-management.md"
+  },
+  {
+    "url": "/2016/07/24/flights-at-the-isarra2016-conference/",
+    "source": "content/posts/1191-flights-at-the-isarra2016-conference.md"
+  },
+  {
+    "url": "/2016/08/01/drones-vs-retro-gaming-fly-with-a-game-boy-classic/",
+    "source": "content/posts/1196-drones-vs-retro-gaming-fly-with-a-game-boy-classic.md"
+  },
+  {
+    "url": "/2016/08/03/paparazzi-uav-at-defcon-24/",
+    "source": "content/posts/1204-paparazzi-uav-at-defcon-24.md"
+  },
+  {
+    "url": "/2016/09/20/delftacopter-hybrid-drone-on-a-mission/",
+    "source": "content/posts/1212-delftacopter-hybrid-drone-on-a-mission.md"
+  },
+  {
+    "url": "/2016/10/24/imav2016/",
+    "source": "content/posts/1236-imav2016.md"
+  },
+  {
+    "url": "/2016/11/29/1bitsy-black-magic-probe-kickstarter/",
+    "source": "content/posts/1250-1bitsy-black-magic-probe-kickstarter.md"
+  },
+  {
+    "url": "/2017/01/18/multi-uav-scientific-flights-video/",
+    "source": "content/posts/1259-multi-uav-scientific-flights-video.md"
+  },
+  {
+    "url": "/2017/02/21/circle-formations-of-fixed-wings/",
+    "source": "content/posts/1269-circle-formations-of-fixed-wings.md"
+  },
+  {
+    "url": "/2017/02/24/flying-parrots-disco-aircraft-with-paparazzi/",
+    "source": "content/posts/1278-flying-parrots-disco-aircraft-with-paparazzi.md"
+  },
+  {
+    "url": "/2017/03/12/first-flights-of-the-hybrid-vehicle-cyfoam-with-chimera-board/",
+    "source": "content/posts/1284-first-flights-of-the-hybrid-vehicle-cyfoam-with-chimera-board.md"
+  },
+  {
+    "url": "/2017/03/20/new-paparazzi-autopilot-chimera-released/",
+    "source": "content/posts/1289-new-paparazzi-autopilot-chimera-released.md"
+  },
+  {
+    "url": "/2017/08/12/multi-uav-capabilities/",
+    "source": "content/posts/1297-multi-uav-capabilities.md"
+  },
+  {
+    "url": "/2017/12/02/pilot-a-super-rotorcraft/",
+    "source": "content/posts/1305-pilot-a-super-rotorcraft.md"
+  },
+  {
+    "url": "/2018/03/26/secure-pprzlink-released/",
+    "source": "content/posts/1311-secure-pprzlink-released.md"
+  },
+  {
+    "url": "/2018/06/15/opening-enacs-flying-arena/",
+    "source": "content/posts/1323-opening-enacs-flying-arena.md"
+  },
+  {
+    "url": "/2018/06/21/uav-network-intrusion-detection-with-wavelet-based-signature-analysis/",
+    "source": "content/posts/1329-uav-network-intrusion-detection-with-wavelet-based-signature-analysis.md"
+  },
+  {
+    "url": "/2018/11/28/paparazzi-wins-at-imav2018/",
+    "source": "content/posts/1336-paparazzi-wins-at-imav2018.md"
+  },
+  {
+    "url": "/2019/04/10/running-paparazzi-on-windows/",
+    "source": "content/posts/1347-running-paparazzi-on-windows.md"
+  },
+  {
+    "url": "/2020/02/03/crazyflie-v2-1-with-paparazzi-onboard/",
+    "source": "content/posts/1357-crazyflie-v2-1-with-paparazzi-onboard.md"
+  },
+  {
+    "url": "/2020/03/04/flight-campaign-at-barbados-island/",
+    "source": "content/posts/1362-flight-campaign-at-barbados-island.md"
+  },
+  {
+    "url": "/2020/11/15/paparazzi-at-the-splash2020-rebase-conference/",
+    "source": "content/posts/1372-paparazzi-at-the-splash2020-rebase-conference.md"
+  },
+  {
+    "url": "/2020/12/08/3d-guiding-for-fixed-wing-aircraft/",
+    "source": "content/posts/1380-3d-guiding-for-fixed-wing-aircraft.md"
+  },
+  {
+    "url": "/2021/04/13/paparazzi-v5-18-is-out-v6-0-is-starting/",
+    "source": "content/posts/1385-paparazzi-v5-18-is-out-v6-0-is-starting.md"
+  },
+  {
+    "url": "/2023/02/22/enac-team-wins-at-imav2022/",
+    "source": "content/posts/1388-enac-team-wins-at-imav2022.md"
+  },
+  {
+    "url": "/2026/07/28/its-been-a-long-time/",
+    "source": "content/posts/1394-its-been-a-long-time.md"
+  }
+]

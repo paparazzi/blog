@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ if not .IsHome }}<h1>{{ .Title }}</h1>{{ end }}
+{{ $pages := .Pages }}{{ if .IsHome }}{{ $pages = where site.RegularPages "Section" "posts" }}{{ end }}
+{{ $pager := .Paginate $pages }}
+{{ range $pager.Pages }}<article><p class="meta">{{ .Date.Format "2 January 2006" }}{{ with .Params.author }} · {{ . }}{{ end }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><div class="content">{{ .Summary }}</div><a class="more" href="{{ .RelPermalink }}">Read article →</a></article>{{ end }}
+<nav class="pagination">{{ if $pager.HasPrev }}<a href="{{ $pager.Prev.URL }}">← Newer</a>{{ end }}<span>Page {{ $pager.PageNumber }} of {{ $pager.TotalPages }}</span>{{ if $pager.HasNext }}<a href="{{ $pager.Next.URL }}">Older →</a>{{ end }}</nav>
+{{ end }}

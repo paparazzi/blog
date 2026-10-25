@@ -1,0 +1,13 @@
+<aside class="article-sidebar" aria-label="All articles">
+  <details open>
+    <summary>All articles <span>{{ len (where site.RegularPages "Section" "posts") }}</span></summary>
+    <nav class="article-list" aria-label="Articles, newest first">
+      <ol>
+        {{ $current := .RelPermalink }}
+        {{ range (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+        <li><a href="{{ .RelPermalink }}"{{ if eq $current .RelPermalink }} aria-current="page"{{ end }}><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time><span>{{ .Title }}</span></a></li>
+        {{ end }}
+      </ol>
+    </nav>
+  </details>
+</aside>
